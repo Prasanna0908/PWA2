@@ -84,7 +84,7 @@ var swiper = new Swiper(".review-slider", {
 });
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('https://sid500.github.io/Ecoomerce_pwa/serviceworker.js')
+  navigator.serviceWorker.register('https://prasanna0908.github.io/PWA2/serviceworker.js')
   .then((registration) => {
   console.log("service worker registered")
   })

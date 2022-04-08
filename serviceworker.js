@@ -4,10 +4,10 @@ self.addEventListener('install' , (event)=>{
     caches.open("static")
     .then((Cache)=>{
         Cache.addAll([
-           'https://sid500.github.io/Ecoomerce_pwa/',
-           'https://sid500.github.io/Ecoomerce_pwa/css/style.css',
-           'https://sid500.github.io/Ecoomerce_pwa/js/script.js',
-           'https://sid500.github.io/Ecoomerce_pwa/index.html'
+           'https://prasanna0908.github.io/PWA2/',
+           'https://prasanna0908.github.io/PWA2/css/style.css',
+           'https://prasanna0908.github.io/PWA2/js/script.js',
+           'https://prasanna0908.github.io/PWA2/index.html'
  
         ]).catch((error)=>{
             console.log(error)
